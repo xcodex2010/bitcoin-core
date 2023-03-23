@@ -16,7 +16,7 @@ module.exports = {
     features: {
       multiwallet: '>=0.15.0'
     },
-    version: '>=0.12.0
+    version: '>=0.12.0'
   },
   abortRescan: {
     category: 'wallet',
@@ -619,13 +619,6 @@ module.exports = {
     },
     version: '>=0.8.0'
   },
-  send: {
-    category: 'wallet',
-    features: {
-      multiwallet: '>=0.15.0'
-    },
-    version: '>=0.8.0'
-  },
   logging: {
     version: '>=0.17.0'
   },
@@ -670,6 +663,13 @@ module.exports = {
   scantxoutset: {
     category: 'blockchain',
     version: '=>0.17.0'
+  },
+  send: {
+    category: 'wallet',
+    features: {
+        multiwallet: '>=0.15.0'
+    },
+    version: '>=0.8.0'
   },
   sendFrom: {
     category: 'wallet',
