@@ -6,18 +6,10 @@ A modern Bitcoin Core REST and RPC client to execute administrative tasks, [mult
 
 ## Installation
 
-Install the package via `yarn`:
-
-```sh
-yarn add bitcoin-core
-```
-
-or via `npm`:
-
 Install the package via `npm`:
 
 ```sh
-npm install bitcoin-core --save
+npm install bitcoin-core-rpc --save
 ```
 
 ## Usage
